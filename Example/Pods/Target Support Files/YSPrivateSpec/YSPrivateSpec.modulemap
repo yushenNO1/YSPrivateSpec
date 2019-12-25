@@ -1,0 +1,6 @@
+framework module YSPrivateSpec {
+  umbrella header "YSPrivateSpec-umbrella.h"
+
+  export *
+  module * { export * }
+}

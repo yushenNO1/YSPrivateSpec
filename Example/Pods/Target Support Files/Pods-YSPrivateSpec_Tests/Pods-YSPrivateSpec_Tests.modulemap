@@ -1,0 +1,6 @@
+framework module Pods_YSPrivateSpec_Tests {
+  umbrella header "Pods-YSPrivateSpec_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

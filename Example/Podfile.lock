@@ -1,0 +1,16 @@
+PODS:
+  - YSPrivateSpec (0.1.0)
+
+DEPENDENCIES:
+  - YSPrivateSpec (from `../`)
+
+EXTERNAL SOURCES:
+  YSPrivateSpec:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YSPrivateSpec: 00aadecf9161e0aec8979d75a9b4f27806fc9622
+
+PODFILE CHECKSUM: b9f510465caa1ede8f53eed37ef21486e099f5be
+
+COCOAPODS: 1.8.3

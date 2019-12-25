@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0ABAE8A4F6932199E81AACEB /* Pods-YSPrivateSpec_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSPrivateSpec_Tests.release.xcconfig"; path = "Target Support Files/Pods-YSPrivateSpec_Tests/Pods-YSPrivateSpec_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0E3D26EDB65FE44A669C86ED /* Pods_YSPrivateSpec_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSPrivateSpec_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C78643299A6101F9321DFAE /* YSPrivateSpec.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YSPrivateSpec.podspec; path = ../YSPrivateSpec.podspec; sourceTree = "<group>"; };
+		4C78643299A6101F9321DFAE /* YSPrivateSpec.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YSPrivateSpec.podspec; path = ../YSPrivateSpec.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* YSPrivateSpec_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSPrivateSpec_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AEE5C9B14AC064E4BDC6E77 /* Pods_YSPrivateSpec_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSPrivateSpec_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF2BCBD0094DAB96425533CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AF2BCBD0094DAB96425533CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F9906DF028BDAF9B39750EEF /* Pods-YSPrivateSpec_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSPrivateSpec_Example.debug.xcconfig"; path = "Target Support Files/Pods-YSPrivateSpec_Example/Pods-YSPrivateSpec_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F99F07147746DA35660B822C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F99F07147746DA35660B822C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FC27C03A4FD3A2164D337600 /* Pods-YSPrivateSpec_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSPrivateSpec_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YSPrivateSpec_Tests/Pods-YSPrivateSpec_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				FC27C03A4FD3A2164D337600 /* Pods-YSPrivateSpec_Tests.debug.xcconfig */,
 				0ABAE8A4F6932199E81AACEB /* Pods-YSPrivateSpec_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

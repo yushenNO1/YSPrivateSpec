@@ -1,0 +1,6 @@
+framework module Pods_YSPrivateSpec_Example {
+  umbrella header "Pods-YSPrivateSpec_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
